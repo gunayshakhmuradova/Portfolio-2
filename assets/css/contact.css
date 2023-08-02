@@ -1,6 +1,3 @@
-.rounded-4 {
-  border-radius: 1rem !important;
-}
 .feature {
   display: inline-flex;
   align-items: center;
@@ -143,7 +140,7 @@
 }
 .row > * {
   flex-shrink: 0;
-  width: 40%;
+  width: 60%;
   max-width: 100%;
   padding-right: calc(1.5rem * 0.5);
   padding-left: calc(1.5rem * 0.5);
@@ -174,6 +171,9 @@
 }
 .bg-light {
   background-color: rgba(248, 249, 250, 1) !important;
+  width: 80%;
+  margin-left: 10rem;
+  border: 1px solid #6c757d;
 }
 .bg-primary {
   background-color: #007bff;
