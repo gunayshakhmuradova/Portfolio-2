@@ -1,96 +1,136 @@
-
 /* 992px */
 @media (max-width: 992px) {
-    .container {
-      padding-right: calc(0 * 0.5);
-      padding-left: calc(1.5rem * 0.5);
-    }
-    header {
-      padding-left: 5rem;
-    }
-    .navbar-nav {
-      flex-direction: row;
-    }
-    .navbar-collapse {
-      flex-grow: unset;
-    }
-    .row {
-        margin-top: calc(-1 * 1.5rem);
-        margin-right: calc(-0.5 * 1.5rem);
-        margin-left: calc(-0.5 * 1.5rem);
-      }
-      .row > * {
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding-right: calc(0.5rem * 0.5);
-        padding-left: calc(0.5rem * 0.5);
-        margin-top: 1.5rem;
-      }
-      .col-lg-8 {
-        flex: 0 0 auto;
-        width: 66.66666667%;
-      }
+  .profile {
+    padding: 15rem;
   }
-  
-  /* 768px */
-  @media (max-width: 768px) {
-    .profile {
-      height: 60vw;
-      width: 60vw;
-    }
-    .row {
-        margin-top: calc(-1 * 2rem);
-        margin-right: calc(-0.5 * 2rem);
-        margin-left: calc(-0.5 * 2rem);
-      }
-      .row > * {
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-right: calc(1rem * 0.5);
-        padding-left: calc(1rem * 0.5);
-        margin-top: 2rem;
-      }
+  .container {
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
   }
-  
-  
-  /* 460px */
-  @media (max-width: 460px) {
-    .btn {
-        width: 12rem;
-        font-size: 1.8rem;
-      }
-    .profile {
-      height: 80vw;
-      width: 80vw;
-      margin: 2.5vw;
-      max-height: 30rem;
-      max-width: 30rem;
-    }
-    header {
-      padding-left: 2rem;
-    }
-    .navbar-toggler {
-      font-size: 1.2rem;
-    }
-    .btn {
-      width: 100%;
-      font-size: 1.5rem;
-      margin: 0.5rem 0;
-    }
-    .row {
-        margin-top: calc(-1 * 1rem);
-        margin-right: calc(-0.5 * 1rem);
-        margin-left: calc(-0.5 * 1rem);
-      }
-      .row > * {
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-right: calc(0.5rem * 0.5);
-        padding-left: calc(0.5rem * 0.5);
-        margin-top: 1rem;
-      }
-      .col-lg-8 {
-        flex: 0 0 auto;
-        width: 100%;
-      }
+  header {
+    padding-left: 5rem;
   }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-collapse {
+    flex-grow: unset;
+  }
+  .row {
+    margin-top: calc(-1 * 1.5rem);
+    margin-right: calc(-0.5 * 1.5rem);
+    margin-left: calc(-0.5 * 1.5rem);
+  }
+  .row > * {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: calc(0.5rem * 0.5);
+    padding-left: calc(0.5rem * 0.5);
+    margin-top: 1.5rem;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .section {
+    margin-left: 8rem;
+  }
+  .card {
+    width: 40rem;
+  }
+  .div {
+    margin-left: -3rem;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .profile {
+    height: 60vw;
+    width: 60vw;
+    padding: 0;
+    margin: 2.5vw;
+    max-height: 30rem;
+    max-width: 30rem;
+  }
+  .row {
+    margin-top: calc(-1 * 2rem);
+    margin-right: calc(-0.5 * 2rem);
+    margin-left: calc(-0.5 * 2rem);
+  }
+  .row > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: calc(1rem * 0.5);
+    padding-left: calc(1rem * 0.5);
+    margin-top: 2rem;
+  }
+  .section {
+    margin-left: 6rem;
+  }
+  .div {
+    margin-left: -5rem;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+/* 460px */
+@media (max-width: 460px) {
+  .btn {
+    width: 12rem;
+    font-size: 1.8rem;
+  }
+  .profile {
+    height: 80vw;
+    width: 80vw;
+    max-height: 30rem;
+    max-width: 30rem;
+    padding: 2rem;
+    margin: 2.5vw;
+  }
+  header {
+    padding-left: 2rem;
+  }
+  nav {
+    margin-right: -1rem;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    font-size: 1.2rem;
+  }
+  .btn {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .row {
+    margin-top: calc(-1 * 1rem);
+    margin-right: calc(-0.5 * 1rem);
+    margin-left: calc(-0.5 * 1rem);
+  }
+  .row > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: calc(0.5rem * 0.5);
+    padding-left: calc(0.5rem * 0.5);
+    margin-top: 1rem;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 100%;
+    overflow: inherit;
+  }
+  .section {
+    margin-left: 3rem;
+  }
+  .div {
+    margin-left: -6rem;
+  }
+  .card {
+    margin-left: -3rem;
+  }
+}
