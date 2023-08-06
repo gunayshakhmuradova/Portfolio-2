@@ -7,3 +7,4 @@
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/7dc59d69-3f67-4a81-8b2e-e95550d01616" alt="farid-portfolio4" height="260px" width="420px">
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/edc1e8bb-5743-4caa-8730-a5c5bd6844b7" alt="farid-portfolio5" height="260px" width="420px">
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/a6d52cb0-beb8-4089-b6f5-f5b2210ad477" alt="farid-portfolio6" height="260px" width="420px">
+<img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/7c2cae05-eac3-474d-a2bb-426dea0cf35b" alt="farid-portfolio7" height="260px" width="420px">
