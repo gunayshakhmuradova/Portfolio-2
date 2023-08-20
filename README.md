@@ -1,5 +1,5 @@
 # Farid-portfolio
-<b>This is a Website with Bootstrap and jQuery. </b>
+<b>This is a "Portfolio website" with Bootstrap and jQuery. </b>
 <br><br>
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/b59a8185-92ad-4d99-9d5d-cf3d71b124d1" alt="farid-portfolio1" height="260px" width="420px">
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/3c3c701a-cf32-4e58-bba3-d72a4b4fa169" alt="farid-portfolio2" height="260px" width="420px">
