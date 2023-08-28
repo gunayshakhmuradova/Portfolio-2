@@ -1,4 +1,4 @@
-# Portfolio-2
+# Portfolio Bootstrap and jQuery
 <b>This is a "Portfolio website" with Bootstrap and jQuery. </b>
 <br><br>
 <img src="https://github.com/shzehra93/Farid-portfolio/assets/126316477/b59a8185-92ad-4d99-9d5d-cf3d71b124d1" alt="farid-portfolio1" height="260px" width="420px">
